@@ -27,11 +27,13 @@ Here, 2 PMOS and 2 NMOS transistors have been used to create a 2 input NAND gate
 Both PMOS transistors are connected in parallel. They insure that output is pulled to high logic level when any one of the input is low.
 The NMOS transistors are connected in series and they pull the output to low logic level only when both inputs are high.
 Thus, at the output we get  $\overline{A.B}$
+
 ![RefCircuit](https://user-images.githubusercontent.com/84727176/155717139-5cbea064-1009-4437-8a2b-db17b2b7fc32.jpg)
 
 <a name="RefWaveform"></a>
 ## Reference Waveform
 ![TruthTable](https://user-images.githubusercontent.com/84727176/155717175-45c5bc2e-12fe-42ee-9ac1-3245877422ba.jpg)
+--- 
 ![RefWaveform](https://user-images.githubusercontent.com/84727176/155717186-d8dfb2f4-49af-4e7e-b6a5-c1399803b350.jpg)
 
 <a name="SimSynopsys"></a>
